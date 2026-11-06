@@ -10,7 +10,6 @@ How has self-rated mental health among Canadian youth changed from 2002 to 2022 
 Does the data obtained through StatCan Public Use Microdata Files (PUMF) match the full survey files, accessed through StatCan Real Time Remote Access (RTRA), closely enough to support those findings? 
 
 
-Using public-use survey files validated against the full files accessed through RTRA, how has self-rated mental health among Canadian youth changed from 2002 to 2022 compared with older adults, and how is it associated with community belonging, physical activity and spiritual beliefs? 
 
 
 
