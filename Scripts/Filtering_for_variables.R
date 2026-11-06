@@ -12,17 +12,17 @@ library(psych)
 # ----CCHS 2002----
 CCHS_2002_raw <- read.csv(file.choose(), header = TRUE, stringsAsFactors = FALSE)
 
-CCHS_2002_selected <- subset(CCHS_2002_raw, select = c(SCRB_082,GENB_10,PACBDFM,SPVB_1,DHHBGAGE,DHHB_SEX,INCBGHH,EDUBDR04,DHHBGMS))
+CCHS_2002_selected <- subset(CCHS_2002_raw, select = c(WTSB_M,SCRB_082,GENB_10,PACBDFM,SPVB_1,DHHBGAGE,DHHB_SEX,INCBGHH,EDUBDR04,DHHBGMS))
 
 # ----CCHS 2012----
 CCHS_2012_raw <- read.csv(file.choose(), header = TRUE, stringsAsFactors = FALSE)
 
-CCHS_2012_selected <- subset(CCHS_2012_raw, select = c(SCR_082,GEN_10,PHSFPPA,SPT_01,DHHGAGE,DHH_SEX,INCGHH,EDUDR04,DHHGMS))
+CCHS_2012_selected <- subset(CCHS_2012_raw, select = c(WTS_M,SCR_082,GEN_10,PHSFPPA,SPT_01,DHHGAGE,DHH_SEX,INCGHH,EDUDR04,DHHGMS))
 
 # ----MHACS 2022----
 MHACS_2022_raw <- read.csv(file.choose(), header = TRUE, stringsAsFactors = FALSE)
 
-MHACS_2022_selected <- subset(MHACS_2022_raw, select = c(GEN_08B,GEN_10,PHSFPPA,SPI_01,DHHGAGE,GENDER,INCDVHH,EDU_05,DHHGMS))
+MHACS_2022_selected <- subset(MHACS_2022_raw, select = c(WTS_M,GEN_08B,GEN_10,PHSFPPA,SPI_01,DHHGAGE,GENDER,INCDVHH,EDU_05,DHHGMS))
 
 
 
